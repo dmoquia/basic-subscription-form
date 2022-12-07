@@ -63,12 +63,23 @@ body {
   /* border: 1px solid black; */
   /* padding: 2rem; */
 }
-.side-banner p {
+
+.try-free {
   margin: 2rem 0;
   padding: 1.8rem;
   background: var(--accentBlue);
   border-radius: 0.8rem;
   text-align: center;
+}
+
+.terms-condition {
+  color: var(--darkBlue);
+  font-size: 0.7rem;
+}
+
+.terms-condition span {
+  color: red;
+  font-size: 0.8rem;
 }
 .side-forms {
   display: flex;
@@ -159,7 +170,7 @@ footer {
     width: 50%;
     max-width: 480px;
   }
-  .side-banner p {
+  .side-banner .try-free {
     margin: 1rem 0;
     padding: 0.8rem;
     background: var(--accentBlue);

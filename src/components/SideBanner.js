@@ -16,7 +16,7 @@ const SideBanner = () => {
 
   return (
     <div className="side-banner">
-      <p>
+      <p className="try-free">
         <strong>try it for free 7 days</strong> then $20/mo. there after
       </p>
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -115,6 +115,10 @@ const SideBanner = () => {
             value="Claim your free trial"
             placeholder="Password"
           />
+          <p className="terms-condition">
+            By Clicking the Button, your are agreeing to our{" "}
+            <span>Terms and Services</span>
+          </p>
         </div>
       </form>
     </div>
